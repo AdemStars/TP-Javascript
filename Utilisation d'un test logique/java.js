@@ -1,0 +1,1 @@
+var tab = new Array(-2,1,4)
