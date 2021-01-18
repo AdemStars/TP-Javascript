@@ -1,8 +1,9 @@
-var a,b,c,d;
+var a,b;
+var pi = 3.14 ;
 
 function maFonction(){
 a = window.prompt('rayon du cercle');
-b=3.14*(a*a)
+b=pi*(a*a)
 alert('la surface  est de: '+b);
 }
                                                      
