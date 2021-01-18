@@ -10,7 +10,8 @@ function boucle(){
 }
 
 function boucle2(){
-    var a = parseInt(prompt('Quelle est la longueur souhaitée du tableau?'));
+    var a = parseInt(prompt('Quelle est la longueur souhaitée du tableau?')); 
+    //* windows.prompt ne marchant pas j'ai utiliser leur commande 
     var tab = new Array();
     
 	for (var i=0;i<a;i++)
