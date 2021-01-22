@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+<title>Formulaires</title>
+<meta http-equiv="Content-Type"> 
+<!------LINK CSS-------------------------->
+<link rel="stylesheet" href="./style.css">
+<!---------LINK JS----------------------->
+<script src="./java.js"></script>
+        <!-------------------BOOTSTRAP 4 CSS------------------------------------------------>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+        
+<body>
+    <div class="container">
+    <div class="row">
+        
+    <!--first -->
+        <div class='col-md-6'>
+    <div class="first">
+    <div class="Calcule">
+    <h1>Formulaires</h1>
+    <p>Veuillez sélectionner votre sexe: </p>
+    <SELECT id="sexe">
+        <OPTION>Homme</OPTION>
+        <OPTION>Femme</OPTION>
+    </SELECT>
+
+    <FORM id="donnees">
+    <p>
+    <label>Votre nom</label> : <input type="text" name="nom" />
+    </p>
+    </FORM>
+
+
+    <p>Cliquez sur le bouton pour valider&nbsp;: <button onclick="formulaire()">Valider</button></p>
+        </div>
+        </div>
+        </div>
+    
+    <!--second -->
+    <div class='col-md-6'>
+    <div class="second">
+    <div class="Calcule">
+    <h1>Calcule de surface</h1>
+    <p>Entrer la largeur</p>
+    <input id="numb"><br>
+    <p>Entrer la longueur</p>
+    <input id="numb1"><br><br>
+    <button onclick="surface()">Calculer</button>
+
+    <p id="demo"></p>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</body>
+    
+</html>
